@@ -15,7 +15,7 @@ jobs:
             - name: Setup Node
               uses: actions/setup-node@v6
               with:
-                node-verion: '23.x'
+                node-version: '23.x'
             - name: Download cached dependencies
               uses: actions/cache@v5
               id: cache
@@ -29,7 +29,7 @@ jobs:
               run: npm run test
             - name: Build code
               run: npm run build
-            - name: Uplod build files
+            - name: Uplaod build files
               uses: actions/upload-artifact@v4
               with: 
                 name: app
