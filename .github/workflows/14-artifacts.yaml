@@ -30,7 +30,7 @@ jobs:
             - name: Build code
               run: npm run build
             - name: Uplaod build files
-              uses: actions/upload-artifact@v4
+              uses: actions/upload-artifact@v5
               with: 
                 name: app
                 path: 14-artifacts/react-app/build
