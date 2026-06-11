@@ -9,5 +9,5 @@ jobs:
     with:
       target-directory: dummy-dir
   e2e-tests:
-    uses: benjaminhosseini/github-actions-course-example-e2e/.github/workflows/e2e.yaml@main
+    uses: BenjaminHosseini/gh-actions-course-example-e2e/.github/workflows/e2e.yaml@main
 
